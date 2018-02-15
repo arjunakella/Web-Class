@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Zoo Box - Mailing List Signup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="css/zoobox.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+	<ul class="nav navbar-nav">
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="details.html">Details</a></li>
+	  <li><a href="prices.html">Prices</a></li>
+	  <li><a href="webstore.html">Web Store</a></li>
+	  <li class="active"><a href="#">Mailing List Signup</a></li>
+	  <li><a href="aboutus.html">About Us</a></li>
+	  <li><a href="blog.html">Blog</a></li>
+	  <li><a href="https://www.yelp.com/biz/zoo-box" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/1200px-Yelp_Logo.svg.png" alt="Yelp" title="Yelp" height="20"/></a></li>
+	  <li><a href="https://www.facebook.com/Zoo.Box/" target="_blank"><img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" alt="Facebook" title="Facebook" height="25"/></a></li>
+	  <li><a href="https://twitter.com/Zoo_Box" target="_blank"><img src="https://help.twitter.com/content/dam/help-twitter/twitter-logo.png" alt="Twitter" title="Twitter" height="25"/></a></li>
+	  <li><a href="https://www.instagram.com/zoobox/" target="_blank"><img src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" alt="Instagram" title="Instagram" height="25"/></a></li>
+	  <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> <span>(510) 850-4484</span></a></li>
+	  <li><a href="mailto:info@zoobox.com"><span class="glyphicon glyphicon-envelope"></span> <span>info@zoobox.com</span></a></li>
+	</ul>
+      </div>
+    </nav>
+
+    <br/>
+    <br/>
+
+    <div class="media zooboxheader">
+      <div class="media-left media-middle">
+	<img src="images/logo5.jpg" class="media-object" style="width:350px">
+      </div>
+      <div class="media-body">
+	<h1 class="media heading">MAILING LIST SIGNUP</h1>
+      </div>
+    </div>
+
+    <div align="center"><img src="images/joinmailinglist.gif" class="img-responsive" alt="Zoo Box" title="Zoo Box" width="500"/></div>
+
+    <h4>Enter your name and address below to join our mailing list and receive the monthly newsletter:</h4>
+    <form action="/action_page.php">
+      <div class="form-group">
+	<label for="name">Name:</label>
+	<input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+      </div>
+      <div class="form-group">
+	<label for="address">Address:</label>
+	<input type="address" class="form-control" id="address1" placeholder="Enter address line 1" name="address1">
+	<input type="address" class="form-control" id="address2" placeholder="Enter address line 2" name="address2">
+      </div>
+      <div class="form-group">
+	<label for="city">City:</label>
+	<input type="city" class="form-control" id="city" placeholder="Enter city" name="city">
+      </div>
+      <div class="form-group">
+	<label for="state">State:</label>
+	<input type="state" class="form-control" id="state" placeholder="Enter state" name="state">
+      </div>
+      <div class="form-group">
+	<label for="zip">Zip:</label>
+	<input type="zip" class="form-control" id="zip" placeholder="Enter zip" name="zip">
+      </div>
+      <div class="form-group">
+	<label for="email">Email:</label>
+	<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="form-group">
+	<label for="email">Confirm Email:</label>
+	<input type="email" class="form-control" id="email2" placeholder="Confirm email" name="email2">
+      </div>
+      <div class="checkbox">
+	<label><input type="checkbox" name="remember"> Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-default">Sign Up</button>
+    </form>
+
+  </div>
+
+  <br/>
+
+  <div class="footer">
+    <span style="color:blue"><a href="#" data-toggle="popover" title="Web Dev Class T2 2017-2018" data-content="Instructor: Mr. Joey Knapp">Website Design by Arjun Akella (2018)</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:arjun_akella@bentleystudent.net" class="btn btn-info" role="button" data-toggle="tooltip" title="Send Email to Arjun"><span class="glyphicon glyphicon-envelope"></span> <span>arjun_akella@bentleystudent.net</span></a>
+  </div>
+
+  <script>
+    $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="popover"]').popover();
+    });
+  </script>
+
+</body>
+</html>
